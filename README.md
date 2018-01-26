@@ -4,19 +4,6 @@
 
 > https://github.com/duangenquan/YoloV2NCS
 
-*This project shows how to run tiny yolov2 (20 classes) with movidius stick:*
-+ A python convertor from yolo to caffe
-+ A c/c++ implementation and python wrapper for region layer of yolov2
-+ A sample for running yolov2 with movidius stick in images or videos
-
----
-
-# Updates
-+ Refine output bboxes according to letterbox_image in YOLOV2, 01/03/2018, 01/12/2018 (Thanks nathiyaa!)
-+ Support multiple sticks, 12/29/2017 (Thanks ichigoi7e!)
-+ Process video in the sample, 12/15/2017 (Thanks ichigoi7e!)
-+ Fix confident offset issues in nms, 12/12/2017
-
 # How To Use
 The following experiments are done on an Intel NUC with ubuntu 16.04.
 	
