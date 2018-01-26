@@ -20,8 +20,8 @@ The following experiments are done on an Intel NUC with ubuntu 16.04.
 ```make```
 
 ### Step 2. Convert Caffe to NCS
-```
 Download pre-trained [caffmodel](https://drive.google.com/open?id=1WXD6Pi47ryGPiTEtGeN4eDQsplgo35qm) , save at location ./models/caffemodels/yolo.caffemodel
+```
 mvNCCompile ./models/caffemodels/yolo.prototxt -w ./models/caffemodels/yolo.caffemodel -s 12
 ```
 There will be a file *graph* generated as converted models for NCS.
