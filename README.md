@@ -1,5 +1,9 @@
 # YOLOv2 for Intel/Movidius Neural Compute Stick (NCS)
 
+## Reference
+
+> https://github.com/duangenquan/YoloV2NCS
+
 *This project shows how to run tiny yolov2 (20 classes) with movidius stick:*
 + A python convertor from yolo to caffe
 + A c/c++ implementation and python wrapper for region layer of yolov2
