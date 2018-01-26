@@ -24,34 +24,9 @@ python3 ./detectionExample/Main.py --image ./data/dog.jpg
 This loads *graph* by default and results will be like this: 
 ![](/test.jpg)
 
-# Run Other YoloV2 models
-### Convert Yolo to Caffe 
-```
-Install caffe and config the python environment path.
-sh ./models/convertyo.sh
-```
-Tips:
+### Training project 
 
-Please ignore the error message similar as "Region layer is not supported".
+[Caffe-YOLOv2-Windows](https://github.com/eric612/Caffe-YOLOv2-Windows)
 
-The converted caffe models should end with "prototxt" and "caffemodel".
+The result was not optimization , still trying now .
 
-### Update parameters
-
-Please update parameters (biases, object names, etc) in ./src/CRegionLayer.cpp, and parameters (dim, blockwd, targetBlockwd, classe, etc) in ./detectionExample/ObjectWrapper.py.
-
-Please read ./src/CRegionLayer.cpp and ./detectionExample/ObjectWrapper.py for details.
-
-# References
-+ [caffe](https://github.com/BVLC/caffe)
-+ [yolo](https://github.com/pjreddie/darknet)
-+ [caffe-yolo](https://github.com/xingwangsfu/caffe-yolo)
-+ [yoloNCS](https://github.com/gudovskiy/yoloNCS)
-
----
-
-# License
-Research Only
-
-# Author
-duangenquan@gmail.com
