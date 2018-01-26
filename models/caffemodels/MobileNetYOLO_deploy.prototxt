@@ -1,3 +1,8 @@
+# mean 127.5,127.5,127.5
+# scale 0.007843 
+#
+#
+#
 name: "MobileNet-SSD"
 input: "data"
 input_shape {
@@ -957,30 +962,5 @@ layer {
     weight_filler {
       type: "xavier"
     }
-  }
-}
-layer {
-  name: "dectetion"
-  type: "DetectionOutput"
-  bottom: "conv_reg"
-  top: "dectetion"
-  detection_output_param {
-    side:13
-    num_classes: 20
-    coords: 4
-    num_box: 5
-	
-	confidence_threshold: .2
-	nms_threshold: .45
-    biases: 1.08
-    biases: 1.19
-    biases: 3.42
-    biases: 4.41
-    biases: 6.63
-    biases: 11.38
-    biases: 9.42
-    biases: 5.11
-    biases: 16.62
-    biases: 10.52
   }
 }
