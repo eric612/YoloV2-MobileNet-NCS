@@ -35,7 +35,7 @@ There will be a file *graph* generated as converted models for NCS.
 python3 ./detectionExample/Main.py --image ./data/dog.jpg
 ```
 This loads *graph* by default and results will be like this: 
-![](/data/test.jpg)
+![](/test.jpg)
 
 # Run Other YoloV2 models
 ### Convert Yolo to Caffe 
